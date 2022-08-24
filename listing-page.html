@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <!--font awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Latest compiled and minified CSS-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--jQuery library-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Assignment</title>
+</head>
+<body> 
+    <div class="container">
+        <div class="topnav">
+        <div class="row">
+            
+            <div class="col-2">
+                <div class="menu-line"></div>
+<div class="menu-line"></div>
+<div class="menu-line"></div>
+            </div>
+
+            <div class="col-6"> <div class="search-container">
+                <form action="/action_page.php">
+                  <input style="padding:0% 50% 0% 0%;"type="text" placeholder="Search here" name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-4">
+  <a href="#" class="menu-last"><i style="font-size:24px" class="fa">&#xf07a;</i>Cart</a>
+  <a href="#" class="menu-last"><i class="fa fa-heart"></i>Wishlist</a>
+  <a href="#" class="menu-last"><i class="fa fa-list-ul" aria-hidden="true"></i>Orderlist</a>
+  <a href="#" class="menu-last"><i style="font-size:24px" class="fa">&#xf2f5;	</i></a>
+  </div>
+        </div>
+</div>
+<!--topnav end-->
+
+<div class="row">
+    <div class="col-2 sidebar">
+        <h6>Filters</h6>
+<form action="/action_page.php">
+    <p>Weight Range</p>
+  <input type="radio" id="a" name="1" value="40">
+   <label for="a">40-50</label><br>
+   <input type="radio" id="b" name="1" value="30">
+  <label for="30">30-40</label><br>
+   <input type="radio" id="c" name="1e" value="20">
+   <label for="20">20-30</label><br>
+    <input type="radio" id="d" name="1" value="10">
+   <label for="10">10-20</label><br>
+    <input type="radio" id="e" name="1" value="30">
+   <label for="0">0-10</label><br>
+  
+    <br>  
+  
+    <p>Sub Sub Category</p>
+    <input type="radio" id="sub1" name="sub" value="30">
+    <label for="sub1">LRPL</label><br>
+    <input type="radio" id="sub2" name="sub" value="60">
+    <label for="sub2">LRSO</label><br>  
+    <input type="radio" id="sub3" name="sub" value="100">
+    <label for="sub3">LRST</label><br>
+    <input type="radio" id="sub3" name="sub" value="100">
+    <label for="sub4">LRTS</label><br>
+
+  </form>
+  
+
+    </div>
+
+    <div class="col-9">
+        <!--<div class="product_card">
+           
+            <div class="product_img">
+                <a href="#" class="">
+                    <img src="Helmet.jpg" class="img-fluid">
+                </a>
+            </div>
+            <div class="row mt-3">
+                <div class="col-12 d-flex">
+                    <div class="product-name">
+                        <p class="mb-0"><a href="">NEW SPORTS PLUS HELMET</a></p>
+                    </div>
+                    <div class="cart pe-1">
+                        <a data-bs-toggle="modal" data-bs-target="#addtocart">
+                            <span 
+                            class="material-symbols-outlined">
+                                shopping_cart
+                            </span>
+                        </a>
+
+                    </div>
+                </div>
+               
+            </div>
+            <div class="product-price">
+                <p class="mb-0">
+                    <i class="fa fa-inr" aria-hidden="true"></i>
+                    <span class="main_price pr-2 black">52900</span>
+                </p>
+            </div>
+
+            <div class="item_action mt-0 pb-0">
+                <div class="item_action_link">
+
+                </div>
+                <div class="compare_feat">
+                    <a class="text-underline" href="#">Compare</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+-->
+
+               <div class="row">
+                <div class="col-3"> <div class="product_img">
+                    <a href="#" class="">
+                        <img src="https://raw.githubusercontent.com/k-t18/UI-Assignment/master/asset/listing-page-asset/show.jpg" class="img-fluid">
+                    </a>
+<br/>
+  <a href="#" class="product-name">KINABALU RC SHOE<i style="font-size:24px" class="fa">&#xf07a;</i></a>
+  <div class="product-price">
+    <p class="mb-0">
+        <i class="fa fa-inr" aria-hidden="true"></i>
+        <span class="main_price pr-2 black">10000</span>
+    </p>
+</div>
+<div class="compare_feat">
+    <a class="text-underline" href="#">Compare</a>
+</div>
+                </div>
+            </div>
+            <!--product1 end-->
+                <div class="col-3">
+                    <div class="product_img">
+                        <a href="#" class="">
+                            <img src="https://raw.githubusercontent.com/k-t18/UI-Assignment/master/asset/listing-page-asset/239qRkVOblW8rEXC.jpg" class="img-fluid">
+                        </a>
+    <br/>
+      <a href="#" class="product-name">KINABALU SHOE<i style="font-size:24px" class="fa">&#xf07a;</i></a>
+      <div class="product-price">
+        <p class="mb-0">
+            <i class="fa fa-inr" aria-hidden="true"></i>
+            <span class="main_price pr-2 black">9500</span>
+        </p>
+    </div>
+    <div class="compare_feat">
+        <a class="text-underline" href="#">Compare</a>
+    </div>
+                    </div>
+                </div>
+                <!--product 2 end-->
+                <div class="col-3"><div class="product_img">
+                    <a href="#" class="">
+                        <img src="https://raw.githubusercontent.com/k-t18/UI-Assignment/master/asset/listing-page-asset/REGmcJFDQieku5tx.jpg" class="img-fluid">
+                    </a>
+<br/>
+  <a href="#" class="product-name">KINABALU POWER SHOE<i style="font-size:24px" class="fa">&#xf07a;</i></a>
+  <div class="product-price">
+    <p class="mb-0">
+        <i class="fa fa-inr" aria-hidden="true"></i>
+        <span class="main_price pr-2 black">12000</span>
+    </p>
+</div>
+<div class="compare_feat">
+    <a class="text-underline" href="#">Compare</a>
+</div>
+                </div></div>
+
+                <!--product3 end-->
+                <div class="col-3"><div class="product_img">
+                    <a href="#" class="">
+                        <img src="https://raw.githubusercontent.com/k-t18/UI-Assignment/master/asset/listing-page-asset/kfoetWxEvIdgCP9O.jpg" class="img-fluid">
+                    </a>
+<br/>
+  <a href="#" class="product-name">SUPERTRAC RC WOMEN SHOE<i style="font-size:24px" class="fa">&#xf07a;</i></a>
+  <div class="product-price">
+    <p class="mb-0">
+        <i class="fa fa-inr" aria-hidden="true"></i>
+        <span class="main_price pr-2 black">11000</span>
+    </p>
+</div>
+<div class="compare_feat">
+    <a class="text-underline" href="#">Compare</a>
+</div>
+                </div></div>
+                <!--product4 end-->
+
+               </div>
+
+</div>
+
+    
+
+
+
+
+</div>
+</body>
+</html>
